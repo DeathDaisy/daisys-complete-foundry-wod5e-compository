@@ -1,0 +1,74 @@
+{
+  "id": "daisys-complete-wod-5e-compendium",
+  "title": "Daisy's Complete WoD 5e Compendium",
+  "version": "0.9.0",
+  "manifest": "https://github.com/DeathDaisy/daisys-complete-foundry-wod5e-compository/releases/latest/download/module.json",
+  "download": "https://github.com/DeathDaisy/daisys-complete-foundry-wod5e-compository/releases/latest/download/module.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Complete compendium</p>",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "clans",
+      "label": "Clans",
+      "path": "packs/clans",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wod5e",
+      "flags": {}
+    },
+    {
+      "name": "disciplines",
+      "label": "Disciplines",
+      "path": "packs/disciplines",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wod5e",
+      "flags": {}
+    },
+    {
+      "name": "advantages-flaws",
+      "label": "Advantages & Flaws",
+      "path": "packs/advantages-flaws",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wod5e",
+      "flags": {}
+    },
+    {
+      "name": "blood-potency-predator-type",
+      "label": "Blood Potency & Predator Type",
+      "path": "packs/blood-potency-predator-type",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wod5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wod5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
