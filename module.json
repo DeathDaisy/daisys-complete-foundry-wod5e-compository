@@ -1,7 +1,7 @@
 {
   "id": "daisys-complete-wod-5e-compendium",
   "title": "Daisy's Complete WoD 5e Compendium",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "manifest": "https://github.com/DeathDaisy/daisys-complete-foundry-wod5e-compository/releases/latest/download/module.json",
   "download": "https://github.com/DeathDaisy/daisys-complete-foundry-wod5e-compository/releases/latest/download/module.zip",
   "compatibility": {
@@ -18,11 +18,11 @@
       "label": "Clans",
       "path": "packs/clans",
       "type": "Item",
+      "system": "wod5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wod5e",
       "flags": {}
     },
     {
@@ -30,11 +30,11 @@
       "label": "Disciplines",
       "path": "packs/disciplines",
       "type": "Item",
+      "system": "wod5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wod5e",
       "flags": {}
     },
     {
@@ -42,17 +42,29 @@
       "label": "Advantages & Flaws",
       "path": "packs/advantages-flaws",
       "type": "Item",
+      "system": "wod5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wod5e",
       "flags": {}
     },
     {
       "name": "blood-potency-predator-type",
       "label": "Blood Potency & Predator Type",
       "path": "packs/blood-potency-predator-type",
+      "type": "Item",
+      "system": "wod5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "resonances",
+      "label": "Resonances",
+      "path": "packs/resonances",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
